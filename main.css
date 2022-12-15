@@ -32,6 +32,45 @@ header nav ul li{
     padding-top: 15px;
 }
 
+/*header end*/
+
+/*main start*/
+
+/*main menu*/
+
+.menu--section h1{
+    font-size: 3.5rem;
+    margin: 3rem 0;
+}
+
+.vegan{
+    color: #2a9d8f;
+}
+
+.menu--buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.our--menu{
+    background-color: #e76f51;
+    color: #fff;
+    padding: 0.5rem 2.5rem;
+    box-shadow: 5px 5px 15px #e76f51ec;
+    border: none;
+    border-radius: 5px;
+}
+
+.local--res{
+    border: none;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+.menu--section img{
+    margin: 2rem 0;
+}
+
 section{
     width: 100%;
 }
@@ -107,4 +146,22 @@ img{
         display: none;
     }
 
+    /*header end*/
+
+    /*main start*/
+
+    /*menu section*/
+
+    .menu--desktop{
+        display: flex;
+        padding: 1rem;
+    }
+
+    .menu--section{
+        padding: 1rem;
+    }
+
+    #fish--dish{
+        width: 375px;
+    }
 }
