@@ -28,7 +28,8 @@ header nav ul li{
 #menu{
     display: inline;
     float: right;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    padding-top: 15px;
 }
 
 section{
