@@ -13,6 +13,24 @@ main, header{
     padding: 1rem;
 }
 
+/*header styles*/
+
+header nav ul li{
+    display: none;
+}
+
+#title--tile{
+    display: inline;
+    font-size: 3.5rem;
+    font-family: 'Rancho', cursive;
+}
+
+#menu{
+    display: inline;
+    float: right;
+    font-size: 1.6rem;
+}
+
 section{
     width: 100%;
 }
@@ -53,4 +71,39 @@ img{
 .staff--item{
     width: 31%;
     height: auto;
+}
+
+@media screen and (min-width: 725px) {
+
+    body{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    /*header style*/
+
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav ul li {
+        display: inline;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    #title--tile{
+        font-weight: 100;
+    }
+
+    #menu {
+        display: none;
+    }
+
 }
