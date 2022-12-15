@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main, header{
+    padding: 1rem;
+}
+
+section{
+    width: 100%;
+}
+
+.specialities{
+    background-color: #efefef;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.specials--container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.specials--item{
+    width: 30%;
+}
+
+.menu--container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#coffee--icon{
+    border-radius: 100%;
+}
+
+.staff--container{
+    display: flex;
+    height: 1300px;
+}
+
+.staff--item{
+    width: 31%;
+    height: auto;
+}
